@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>682</width>
+    <height>648</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>2</number>
+    </property>
+    <property name="topMargin">
+     <number>2</number>
+    </property>
+    <property name="rightMargin">
+     <number>2</number>
+    </property>
+    <property name="bottomMargin">
+     <number>2</number>
+    </property>
+    <property name="spacing">
+     <number>3</number>
+    </property>
+    <item row="2" column="0" colspan="6">
+     <widget class="QLineEdit" name="ldtSearchText"/>
+    </item>
+    <item row="1" column="5">
+     <widget class="QToolButton" name="tbnMTC">
+      <property name="text">
+       <string>维修方案</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QToolButton" name="tbnBasic">
+      <property name="text">
+       <string>基础知识</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QToolButton" name="tbnMainboard">
+      <property name="text">
+       <string>主板图</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="6">
+     <widget class="QTreeWidget" name="treeWidget">
+      <column>
+       <property name="text">
+        <string notr="true">1</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QToolButton" name="tbnBlock">
+      <property name="text">
+       <string>方框图</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QToolButton" name="tbnResistance">
+      <property name="text">
+       <string>对地阻值</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QToolButton" name="tbnSCH">
+      <property name="text">
+       <string>原理图</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="6">
+     <widget class="QLabel" name="lblTips">
+      <property name="text">
+       <string>1、点击任一按钮，选择功能模块。
+2、界面显示模块的菜单列表，仅供查看。
+3、提供搜索菜单列表功能，输入框输入文本，回车搜索。
+4、左上角的点位图、多层线路图可以查看五芯级现有机型。</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>682</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBitMap">
+    <property name="title">
+     <string>点位图</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuMultiLayerPainter">
+    <property name="title">
+     <string>多层线路图</string>
+    </property>
+   </widget>
+   <addaction name="menuBitMap"/>
+   <addaction name="menuMultiLayerPainter"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

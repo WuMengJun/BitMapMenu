@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>toolsrc/1.png</file>
+        <file>toolsrc/2.png</file>
+        <file>toolsrc/3.png</file>
+        <file>toolsrc/4.png</file>
+        <file>toolsrc/5.png</file>
+        <file>toolsrc/6.png</file>
+        <file>toolsrc/7.png</file>
+        <file>toolsrc/8.png</file>
+        <file>toolsrc/9.png</file>
+        <file>toolsrc/10.png</file>
+        <file>toolsrc/11.png</file>
+        <file>toolsrc/12.png</file>
+        <file>toolsrc/13.png</file>
+        <file>toolsrc/14.png</file>
+        <file>toolsrc/15.png</file>
+        <file>toolsrc/16.png</file>
+        <file>toolsrc/17.png</file>
+        <file>toolsrc/18.png</file>
+        <file>toolsrc/19.png</file>
+        <file>toolsrc/20.png</file>
+        <file>toolsrc/21.png</file>
+        <file>toolsrc/22.png</file>
+        <file>toolsrc/23.png</file>
+        <file>toolsrc/24.png</file>
+        <file>toolsrc/25.png</file>
+        <file>toolsrc/26.png</file>
+        <file>toolsrc/27.png</file>
+        <file>toolsrc/28.png</file>
+        <file>toolsrc/29.png</file>
+        <file>toolsrc/30.png</file>
+        <file>toolsrc/31.png</file>
+        <file>wxj.ico</file>
+    </qresource>
+</RCC>
